@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIOT: Shopping</title>
+    <link rel="shortcut icon" href="pictures/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="web.css">
+    <script type="text/javascript" src="web.js"></script>
+</head>
+
+<body>
+    <div class="web-header">
+        <img src="pictures/Logo.png" alt="Logo">
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li>
+                <a href="#">Courseware<span class="arrow"></span></a>
+                <ul class="plat">
+                    <li><a href="courseware.html">Course</a></li>
+                    <li><a href="courseware.html">Resource Kits</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Project<span class="arrow"></span></a>
+                <ul class="plat">
+                    <li><a href="project.html">E-commerce Website</a></li>
+                    <li><a href="project.html">Mobile Application</a></li>
+                    <li><a href="project.html">Data Analytics Project</a></li>
+                    <li><a href="project.html">Content Management System (CMS)</a></li>
+                    <li><a href="project.html">Cybersecurity Project</a></li>
+                    <li><a href="project.html">IoT-based Project</a></li>
+                </ul>
+            </li>
+    </div>
+
+    <div class="main">
+        <div class="courseware">
+            <div class="card">
+                <p class="title">ICT20120 - Certificate II in Applied Digital Technologies</p>
+                <p class="price">Price: AUD 700</p>
+                <input class="number" type="number" min="0">
+                <button onclick="addItem738('ICT20120', 700, this)">Add Cart</button>
+            </div>
+
+            <div class="card">
+                <p class="title">ICT30120 - Certificate III in Information Technology</p>
+                <p class="price">Price: AUD 1,200</p>
+                <input class="number" type="number" min="0">
+                <button onclick="addItem738('ICT30120', 1200, this)">Add Cart</button>
+            </div>
+            <div class="card">
+                <p class="title">ICT40120 - Certificate IV in Information Technology</p>
+                <p class="price">Price: AUD 1,700</p>
+                <input class="number" type="number" min="0">
+                <button onclick="addItem738('ICT40120', 1700, this)">Add Cart</button>
+            </div>
+            <div class="card">
+                <p class="title">ICT50220 - Diploma of Information Technology</p>
+                <p class="price">Price: AUD 2,000</p>
+                <input class="number" type="number" min="0">
+                <button onclick="addItem738('ICT50220', 2000, this)">Add Cart</button>
+            </div>
+            <div class="card">
+                <p class="title">ICT60220 - Advanced Diploma of Information Technology</p>
+                <p class="price">Price: AUD 2,400</p>
+                <input class="number" type="number" min="0">
+                <button onclick="addItem738('ICT60220', 2400, this)">Add Cart</button>
+            </div>
+            <div class="card">
+                <p class="title">ICTSS00114 - Advanced Telecommunications Networking Skill Set</p>
+                <p class="price">Price: AUD 1,400</p>
+                <input class="number" type="number" min="0">
+                <button onclick="addItem738('ICTSS00114', 1400, this)">Add Cart</button>
+            </div>
+            <div class="card">
+                <p class="title">ICTSS00166 - Application Development Specialist Skill Set</p>
+                <p class="price">Price: AUD 1,300</p>
+                <input class="number" type="number" min="0">
+                <button onclick="addItem738('ICTSS00166', 1300, this)">Add Cart</button>
+            </div>
+            <div class="card">
+                <p class="title">ICTSS00120 - Artificial Intelligence Skill Set</p>
+                <p class="price">Price: AUD 1,500</p>
+                <input class="number" type="number" min="0">
+                <button onclick="addItem738('ICTSS00120', 1500, this)">Add Cart</button>
+            </div>
+        </div>
+
+        <div class="cart">
+            <p class="title">My Cart</p>
+            <p id="total">Total:</p>
+            <ul id="items"></ul>
+            <button onclick="clearCart738()">Clear Cart</button>
+            <button onclick="checkout738()">Checkout</button>
+        </div>
+    </div>
+
+    <div class="contactInfo">
+        <div class="contact_title">
+            <p class="title">Contact Us</p>
+            <img src="pictures/icon.png" alt="Social media icons">
+        </div>
+        <div class="contact_detail">
+            <p>Phone: 02-87654321</p>
+            <p>Phone: +61-2-12345678 when calling outside of Australia</p>
+            <p>Email: ciot@website.com</p>
+            <p>Address: 974 Majura Rd, Majura Park ACT 2471</p>
+        </div>
+    </div>
+    <div class="terms">
+        <p>Terms of Use · Privacy Policy</p>
+        <p>Cookie Policy · Legal Notices</p>
+        <p>Accessibility statement</p>
+    </div>
+    <footer>
+        &copy; 2024 Alex Zheng Qiuyang. an CIOT College. All Rights Reserved.
+    </footer>
+</body>
+
+</html>
